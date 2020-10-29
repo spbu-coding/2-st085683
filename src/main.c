@@ -4,8 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
-#include "sort.h"
 #include "utils.h"
 
 
