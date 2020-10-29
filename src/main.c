@@ -177,5 +177,6 @@ int defined_parameters(long long **from_value, long long **to_value, char *varia
             break;
     }
 
-    return NULL;
+    return 0;
 }
+
