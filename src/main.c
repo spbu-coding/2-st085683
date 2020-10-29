@@ -4,8 +4,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 #include "sort.h"
 #include "utils.h"
+
 
 enum error_codes {
     less_than_one_parameter_entered = -1,
