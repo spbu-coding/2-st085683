@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "sort.h"
+#include "short.h"
 #include "utils.h"
 
 enum error_codes {
@@ -139,7 +139,7 @@ int main(int var_func_main_int, char *var_func_main_char[]) {
     int app_output = appli_execution(ints_ll_entrd, decr_num_quantity, from_value, to_value);
 
     if (from_value != 0) free(from_value);
-    if (to != 0) free(to_value);
+    if (to_value != 0) free(to_value);
 
     return app_output;
 }
